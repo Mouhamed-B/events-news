@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { EventList } from './event-list/event-list.component';
 import { AboutComponent } from './about/about.component';
 import { EventDetailComponent } from './event-detail/event-detail.component';
+import { EventCardComponent } from './event-card/event-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EventList,
     AboutComponent,
-    EventDetailComponent
+    EventDetailComponent,
+    EventCardComponent
   ],
   imports: [
     BrowserModule,
