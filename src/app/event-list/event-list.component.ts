@@ -7,7 +7,7 @@ import { Component, Input,OnInit } from '@angular/core';
 })
 export class EventList implements OnInit {
 
-  @Input() events: Array<any> = [];
+  @Input() events: Array<any> | null= [];
   constructor() { }
 
   ngOnInit(): void {

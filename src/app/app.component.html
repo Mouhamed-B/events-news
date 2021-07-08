@@ -1,5 +1,4 @@
 <div id="nav">
-  <a href="">Home</a> | <a href="">About</a>
-  <h1>{{ title }}</h1>
-  <event-list [events]="events"></event-list>
+  <p align='center'><a href="">Home</a> | <a href="">About</a></p>
+  <event-list [events]="events |async"></event-list>
 </div>
