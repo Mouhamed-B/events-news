@@ -1,7 +1,7 @@
 import { Component, Input,OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-event-card',
+  selector: 'event-card',
   templateUrl: './event-card.component.html',
   styleUrls: ['./event-card.component.scss']
 })
